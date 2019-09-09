@@ -80,6 +80,58 @@
   height: 20rem;
 }
 
+.names,
+.inning,
+.total {
+}
+
+.names {
+  font-size: 5rem;
+}
+
+.inning {
+  font-size: 4rem;
+  margin: 0 0 3.25rem 0;
+  width: 5rem;
+  height: 15rem;
+  text-align: center;
+  
+}
+
+.inning .score {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 2px solid lightgray;
+  background-color: black;
+  color: yellow;
+}
+
+.total {
+  font-size: 4rem;
+  margin: 0 0 4.25rem 0;
+  width: 5rem;
+  height: 15rem;
+  text-align: center;
+  background-color: black;
+}
+
+.total .total-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: yellow;
+  height: 5rem;
+  background-color: black;
+  border: 2px solid lightgray;
+}
+
+.total .totals {
+  border: 2px solid lightgray;
+  background-color: black;
+  color: yellow;
+}
+
 .down,
 .toGo,
 .ballOn,
@@ -120,3 +172,4 @@
   margin: 1rem;
   border-radius: 4px;
 }
+

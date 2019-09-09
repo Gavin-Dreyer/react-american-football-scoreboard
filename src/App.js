@@ -27,6 +27,62 @@ function App() {
           </div>
         </div>
         <BottomRow />
+        {/* <div className = "bottomRow">
+          <div className = "names">
+            <div>Visitor</div>
+            <div>Home</div>
+          </div>
+          <div className = "inning">
+            <div>1</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>2</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>3</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>4</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>5</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>6</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>7</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>8</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "inning">
+            <div>9</div>
+            <div className = "score">{awayScore}</div>
+            <div className = "score">{homeScore}</div>
+          </div>
+          <div className = "total">
+            <div className = "total-text">Total</div>
+            <div className = "totals">1</div>
+            <div className = "totals">1</div>
+          </div>
+    </div> */}
       </section>
       <section className="buttons">
         <div className="homeButtons">

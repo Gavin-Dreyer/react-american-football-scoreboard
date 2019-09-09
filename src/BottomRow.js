@@ -1,8 +1,69 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 
 const BottomRow = () => {
+
+  
   return (
+    // <div className = "bottomRow">
+    //   <div className = "names">
+    //     <div>Visitor</div>
+    //     <div>Home</div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>1</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>2</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>3</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>4</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>5</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>6</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>7</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>8</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "inning">
+    //     <div>9</div>
+    //     <div className = "score"></div>
+    //     <div className = "score"></div>
+    //   </div>
+    //   <div className = "total">
+    //     <div className = "total-text">Total</div>
+    //     <div className = "totals">1</div>
+    //     <div className = "totals">1</div>
+    //   </div>
+    // </div>
+
+
+
     <div className="bottomRow">
       <div className="down">
         <h3 className="down__title">Down</h3>
