@@ -103,7 +103,7 @@
   padding: 0 0 0 0;
   border: 2px solid lightgray;
   background-color: black;
-  color: yellow;
+  
 }
 
 .total {
@@ -173,3 +173,12 @@
   border-radius: 4px;
 }
 
+.bottomInfo {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 3rem 0;
+}
+
+.bottomInfo div {
+  text-align: center;
+}
